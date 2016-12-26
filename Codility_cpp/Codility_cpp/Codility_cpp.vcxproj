@@ -151,10 +151,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="binomial_coeff.h" />
+    <ClInclude Include="max_30_bit_int_cyc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binomial_coeff.cpp" />
     <ClCompile Include="binomial_coeff_test.cpp" />
+    <ClCompile Include="max_30_bit_int_cyc.cpp" />
+    <ClCompile Include="max_30_bit_int_cyc_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
